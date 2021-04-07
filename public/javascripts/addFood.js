@@ -12,3 +12,18 @@ function addFood(step, id, callback) {
   });
 }
 /***** ^^^ DO NOT TOUCH *****/
+
+function addMashPotatoesImg() {
+  return new Promise((resolve, reject) => {
+    document.querySelector('#table').innerHTML = `<img src="public/images/mashPotatoes.jpg" />`;
+    resolve();
+    });
+}
+
+function addSteakImg() {
+  return new Promise((resolve, reject) => {
+    document.querySelector('#table2').innerHTML = `<img src="public/images/steak.jpg" />`;
+    resolve();
+    });
+}
+

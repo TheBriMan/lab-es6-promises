@@ -22,11 +22,18 @@ label {
   display: flex;
 }
 
-#table {
+/*#table {
+  height: 200px;
+  display: flex;
+  justify-content: space-evenly;
+}*/
+
+.images {
   height: 200px;
   display: flex;
   justify-content: space-evenly;
 }
+
 ol {
   width: 33%;
   position: relative;
